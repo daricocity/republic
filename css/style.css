@@ -1234,6 +1234,12 @@ rgba(0,219,88,.07);
     padding: 10px 10px;
 }
 
+@media (max-width: 480px) {
+    .category {
+        margin-bottom: 20px;
+    }
+}
+
 .category-content img {
     height: 50px;
     width: 50px;
@@ -1669,12 +1675,23 @@ a .label2:hover {
 .mt-half2 ul li img {
     width: 120px; 
     height: 120px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 20px 40px 0 rgba(0,0,0,.11);
+    box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
+}
+
+@media (max-width: 480px) {
+    .mt-half2 {
+        margin-top: 20px;
+    }
 }
 
 .submit {
     background: #02b3e4;
     border: none;
     width: 100%;
+    -webkit-box-shadow: 0 20px 40px 0 rgba(0,0,0,.11);
+    box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
 }
 
 #Investors h2 {
@@ -1712,39 +1729,6 @@ a .label2:hover {
     color: #878c9f;
     padding-bottom: 10px;
     font-weight: 500;
-}
-
-.footer-contact {
-    margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px dashed rgba(255, 255, 255, 0.11);
-}
-
-.footer-contact span {
-    color: rgba(255, 255, 255, 0.81);
-    padding-left: 4px;
-    font-weight: 700;
-    font-size: 13px;
-}
-
-.blog-info p a, .blog-info p i, .sub-mes span, #cop .copy-text p {
-    color: rgba(255, 255, 255, 0.81);
-    padding-left: 4px;
-    font-weight: 700;
-    font-size: 13px;
-}
-
-.blog-info .date {
-    color: #4db7fe;
-}
-
-.blog-info {
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.11);
-}
-
-.submit {
-    text-transform: capitalize;
-    margin-top: -10px; 
 }
 
 .copy {
@@ -1815,7 +1799,3 @@ a .label2:hover {
     color: #4db7fe;
 }
 /* End Footer */
-
-/*rgba(0,56,255,.12);
-rgba(158,0,255,.12);
-rgba(0,219,88,.07);*/
