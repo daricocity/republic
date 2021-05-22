@@ -1698,6 +1698,12 @@ a .label2:hover {
     font-size: 40px;
 }
 
+.form-control::-webkit-input-placeholder {
+    color: #044d0b!important;
+    font-weight: 500;
+    font-size: 15px;
+}
+
 /* Start Footer */
 .latest-news:hover {
     color: #fff;
