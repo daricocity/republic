@@ -359,6 +359,10 @@ ol {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.section-padding-10-70 {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
 .section-padding-100-70 {
     padding-top: 100px;
     padding-bottom: 70px;
@@ -1805,3 +1809,12 @@ a .label2:hover {
     color: #4db7fe;
 }
 /* End Footer */
+
+/* Recent Investor */
+.owl-carousel h4 {
+    font-weight: normal;
+}
+
+.owl-carousel span {
+    font-weight: 500;
+}
