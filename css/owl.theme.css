@@ -41,7 +41,8 @@
 }
 
 .owl-theme .owl-dots .owl-dot {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: none;
     zoom: 1
 }
 
