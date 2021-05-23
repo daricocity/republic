@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900');
+@import 'tabs.css';
 @import 'bootstrap.min.css';
 @import 'animate.css';
 @import 'classy-nav.min.css';
 @import 'animated-headline.css';
 @import 'utility.css';
-@import 'tabs.css';
 
 * {
     margin: 0;
@@ -1763,12 +1763,15 @@ a .label2:hover {
 }
 
 #cop {
-    height: 100px;
+    height: 50px;
+    /*height: 100px;*/
+    /*pt-4*/
 }
 
 @media (max-width: 768px) {
     #cop {
-        height: 210px;
+        height: 90px;
+        /*height: 210px;*/
     }
 }
 
@@ -1834,6 +1837,11 @@ a .label2:hover {
 
 .owl-carousel span {
     font-weight: 500;
+}
+
+#recent-investor .owl-carousel .item img {
+    width: 90px; 
+    height: 90px;
 }
 
 /*----------------------------------------*/
@@ -1960,16 +1968,34 @@ a .label2:hover {
 }
 .nav-pills > li > a {
   border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 .nav-pills > li + li {
   margin-left: 2px;
 }
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #337ab7;
 }
+
+.icon-tab .nav-pills>li.active>a, 
+.icon-tab .nav-pills>li.active>a:focus, 
+.icon-tab .nav-pills>li.active>a:hover {
+    color: #fff;
+    border:1px solid transparent;
+    background: #03a9f4;
+}
+
+.icon-tab .nav-pills>li.active>a, 
+.icon-tab .nav-pills>li.active>a:focus, 
+.icon-tab .nav-pills>li.active>a:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .tab-content > .tab-pane {
   display: none;
   visibility: hidden;
@@ -2005,4 +2031,10 @@ a .label2:hover {
 
 .waves-effect.waves-light .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); 
+}
+
+@media (max-width: 480px) {
+    .icon-tab .nav-pills {
+        padding-left: 50px;
+    }
 }
