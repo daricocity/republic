@@ -1708,6 +1708,10 @@ a .label2:hover {
     font-size: 40px;
 }
 
+#Newsletter h2 {
+    font-size: 40px;
+}
+
 .form-control::-webkit-input-placeholder {
     color: #044d0b!important;
     font-weight: 500;
