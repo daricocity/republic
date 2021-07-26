@@ -593,6 +593,16 @@ ol {
     justify-content: center;
     align-items: center;
 }
+
+.hero-section-2{
+    position: relative;
+    min-height: 90px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-section.app{
     position: relative;
     min-height: 700px;
@@ -602,6 +612,7 @@ ol {
     justify-content: center;
     align-items: center;
 }
+
 .hero-section.app img{
 	width: 100%
 }
@@ -936,6 +947,7 @@ p.artficial:before{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 @media (min-width: 1200px){
     .sity{
         max-width: 142%;
@@ -1264,6 +1276,12 @@ rgba(0,219,88,.07);
     font-size: 34px;
 }
 
+.titled h2 {
+    color: #566985;
+    font-weight: 500;
+    font-size: 34px;
+}
+
 #sub-top {
     margin-top: 40px;
 }
@@ -1489,8 +1507,14 @@ rgba(0,219,88,.07);
 }
 
 .car-bod h4 {
+    font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 700;
+
+}
+
+.car-bod {
+    padding-bottom: 15px;
 }
 
 #accordionEx {
@@ -1633,6 +1657,9 @@ a .label2:hover {
 }
 
 /*===== // Faq =====*/
+.faq {
+    padding: 0px 0 50px 0; 
+}
 
 .collapse .card-body {
     padding-bottom: 10px;
@@ -1666,6 +1693,18 @@ a .label2:hover {
 .info-become-car p {
     font-weight: 500;
     font-size: 13px;
+}
+
+.faq .card-header {
+    background: #fff;
+}
+
+.faq .card-header #quest {
+    color: #02b3e4;
+}
+
+.faq .titled h2 {
+    font-size: 18px;
 }
 
 .card-header {
@@ -1704,6 +1743,15 @@ a .label2:hover {
     box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
 }
 
+.invest-button {
+    background: #02b3e4;
+    border: none;
+    -webkit-box-shadow: 0 20px 40px 0 rgba(0,0,0,.11);
+    box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
+    padding: 14px 39px 18px;
+    font-size: 22px;
+}
+
 #Investors h2 {
     font-size: 40px;
 }
@@ -1713,7 +1761,7 @@ a .label2:hover {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #044d0b!important;
+    color: #044d0b;
     font-weight: 500;
     font-size: 15px;
 }
@@ -2041,4 +2089,677 @@ a .label2:hover {
     .icon-tab .nav-pills {
         padding-left: 50px;
     }
+}
+
+/*REGISTER PAGE*/
+#register-page {
+  margin-top: -56px;
+}
+
+.contact {
+    margin-top: -300px;
+    padding: 0px 0 50px 0; 
+    /*padding: 0px 0 120px 0;*/ 
+}
+
+.contact.login-page-content {
+    padding: 120px 0 70px 0; 
+    /*padding: 120px 0 120px 0; */
+}
+
+.contact.register-content-area {
+    padding: 120px 0 120px 0; 
+}
+
+.contact .section-title {
+    margin-bottom: 53px; 
+}
+
+.contact .section-title h2 {
+    margin-bottom: 22px; 
+}
+.contact .section-title p {
+    color: rgba(5, 33, 87, 0.6); 
+}
+
+.contact .login-page-outer {
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+    box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+    padding: 53px 60px 60px 60px;
+    position: relative;
+    border-radius: 10px;
+    z-index: 2; 
+}
+
+.contact .register-page-innter-wrapper {
+background: #fff;
+    -webkit-box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+    box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+    padding: 53px 60px 60px 60px;
+    position: relative;
+    border-radius: 10px;
+    z-index: 2; 
+}
+
+.contact .contact-form-outer {
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+    box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+    padding: 70px 60px 80px 60px;
+    position: relative;
+    border-radius: 10px;
+    z-index: 2; 
+}
+
+.contact .contact-form {
+    /* Base for label styling */
+    /* checkbox aspect */
+    /* checked mark aspect */
+    /* checked mark aspect changes */ 
+}
+
+.contact .contact-form .form-group {
+    margin-bottom: 25px; 
+}
+
+.contact .contact-form .form-group.checkbox {
+    height: 100%; 
+}
+
+.contact .contact-form .form-group.checkbox .form-check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    margin: 2px 0 0; 
+}
+
+.contact .contact-form .form-group.fieldset {
+    margin: 13px 0 21px; 
+}
+
+.contact .contact-form .form-group label {
+    color: #3f4b6e;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 13px; 
+}
+
+.contact .contact-form .form-group label .requred {
+    color: #91039f; 
+}
+
+.contact .contact-form .form-group input.form-control {
+    height: 60px;
+    border: none;
+    background: #f3f6ff;
+    color: #3f4b6e;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-weight: 500;
+    width: 100%; 
+}
+
+.contact .contact-form .form-group input.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+}
+.contact .contact-form .form-group input.form-control::-webkit-input-placeholder,
+.contact .contact-form .form-group input.form-control:-ms-input-placeholder,
+.contact .contact-form .form-group input.form-control::-ms-input-placeholder,
+.contact .contact-form .form-group input.form-control::placeholder,
+.contact .contact-form .form-group textarea::-webkit-input-placeholder,
+.contact .contact-form .form-group textarea:-ms-input-placeholder,
+.contact .contact-form .form-group textarea::-ms-input-placeholder,
+.contact .contact-form .form-group textarea::placeholder {
+    opacity: .8; 
+}
+
+.contact .contact-form .form-group textarea {
+    height: 160px;
+    border: none;
+    background: #f3f6ff;
+    color: #3f4b6e;
+    font-size: 14px;
+    padding: 30px 30px;
+    font-weight: 500; 
+}
+
+.contact .contact-form .form-group textarea:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+}
+
+.contact .contact-form .form-group .form-check {
+    padding-left: 15px;
+    margin-right: 55px; 
+}
+
+.contact .contact-form .form-group .form-check [type="radio"]:checked,
+.contact .contact-form .form-group .form-check [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px; 
+}
+
+.contact .contact-form .form-group .form-check [type="radio"]:checked + label,
+.contact .contact-form .form-group .form-check [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666; 
+}
+
+.contact .contact-form .form-group .form-check [type="radio"]:checked + label:before,
+.contact .contact-form .form-group .form-check [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #052157;
+    border-radius: 100%;
+    background: #fff;
+}
+
+.contact .contact-form .form-group .form-check [type="radio"]:checked + label:after,
+.contact .contact-form .form-group .form-check [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: -webkit-linear-gradient(-30deg, #91039f 0%, #052157 100%);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; 
+}
+
+.contact .contact-form .form-group .form-check [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); 
+}
+
+.contact .contact-form .form-group .form-check [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+}
+
+.contact .contact-form select {
+    height: 60px;
+    border: none;
+    background: #f3f6ff;
+    color: #3f4b6e;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-weight: 500;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative; 
+}
+
+  .contact .contact-form select:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+}
+
+.contact .contact-form button {
+    height: 60px;
+    /*width: 160px;*/
+    width: 100%;
+    /*background: -webkit-linear-gradient(-30deg, #052157 0%, #91039f 100%);*/
+    background: -webkit-linear-gradient(-30deg, #db261d 0%, #ff4500 100%);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    position: relative;
+    /*left: 50%;
+    margin-left: -80px;*/
+    margin-top: 15px;
+    outline: none; 
+}
+
+.contact .contact-form button:hover {
+    /* background: -webkit-linear-gradient(-30deg, #91039f 0%, #052157 100%);*/
+    background: -webkit-linear-gradient(-30deg, #ff4500 0%, #db261d 100%);
+    color: #fff; 
+}
+
+.contact .contact-form button.submit-button {
+    right: 0;
+    margin-left: 80px; 
+}
+.contact .contact-form button.login-button {
+    margin-left: 0;
+    /*margin-top: 28px;*/
+    margin-top: 15px;
+    left: 0; 
+    margin-bottom: 10px;
+}
+
+.contact .contact-form .forgetting-password {
+    display: inline-block;
+    margin-top: 28px;
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
+    color: #575f84;
+    font-weight: 600; 
+}
+
+.contact .contact-form [type="checkbox"]:not(:checked),
+.contact .contact-form [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px; 
+}
+
+.contact .contact-form [type="checkbox"]:not(:checked) + label,
+.contact .contact-form [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 1.95em;
+    cursor: pointer;
+    margin: 0; 
+}
+
+.contact .contact-form [type="checkbox"]:not(:checked) + label:before,
+.contact .contact-form [type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid #052157;
+    background: #fff; 
+}
+
+.contact .contact-form [type="checkbox"]:not(:checked) + label:after,
+.contact .contact-form [type="checkbox"]:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    width: 12px;
+    border-radius: 50px;
+    height: 12px;
+    font-size: 1.3em;
+    line-height: 0.8;
+    background: -webkit-linear-gradient(-30deg, #91039f 0%, #052157 100%);
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial; 
+}
+
+.contact .contact-form [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); 
+}
+
+.contact .contact-form [type="checkbox"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+}
+
+/* How it works */
+.how-it-works {
+    padding: 0px 0 50px 0; 
+}
+
+#learn-more {
+    background: rgba(0,56,255,.12);
+    padding-top: 50px;
+    padding-bottom: 60px
+}
+
+#cbody h2 {
+    font-size: 17px;
+}
+
+#learn-more .tilt {
+    font-weight: 900;
+}
+
+/*Invest Now*/
+#invest-now .form-group {
+    display: flex;
+}
+
+#invest-now .form-group i {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#invest-now .form-group input.form-control::-webkit-input-placeholder {
+    font-weight: normal;
+    color: #ccc;
+    padding-left: 20px;
+}
+
+#invest-now .form-group input.form-control:focus {
+    padding-left: 30px;
+}
+
+#invest-now .form-group input.form-control{
+    border: none;
+}
+
+#invest-now .form-group input.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none; 
+}
+
+#invest-now .mdb-select,
+#invest-now .mdb-select option {
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-align: start;
+    -webkit-writing-mode: horizontal-tb!important;
+    border: none;
+}
+
+/*Company Profile*/
+.company-title h2 {
+    color: #566985;
+    font-size: 35px;
+    font-family: neue haas unica,helvetica neue,Arial,sans-serif;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -.04em;
+}
+
+.company-title p {
+    color: #7d93b2;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.comapany-name {
+    display: flex;
+}
+
+.comapany-logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+.trending-words {
+    margin-top: -10px;
+}
+
+.trending-words a {
+    color: #566985;
+    background: #eee;
+    padding: 4px 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -30px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.social {
+    margin-top: 45px;
+    float: right;
+}
+
+.social i {
+    font-size: 25px;
+    color: #777;
+    margin-right: 10px;
+}
+
+.comapany-stat {
+    margin-top: 40%;
+}
+
+.trends {
+    /*color: #566985;*/
+    color: #f83a5c;
+    background: #eee;
+    padding: 4px 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.raised {
+    margin-top: 20px;
+    border-bottom: 4px solid #19c157;
+}
+
+.investor {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.invest {
+    margin-top: 20px;
+}
+
+.raised h4 {
+    color: #19c157;
+    font-weight: 900;
+    letter-spacing: -.03em;
+    font-size: 35px;
+}
+
+.investor h4, .invest h4 {
+    font-size: 35px;
+    color: #000;
+    font-weight: 900;
+}
+
+.raised p, .investor p {
+    color: #777;
+    line-height: 0;
+    text-transform: capitalize;
+}
+
+.invest p {
+    color: #777;
+    line-height: 0;
+}
+
+.investing-button p {
+    line-height: 0;
+}
+
+.investing-button {
+    margin-top: 40px;
+}
+
+.investing-button a {
+    background: #02b3e4;
+    border: none;
+    -webkit-box-shadow: 0 20px 40px 0 rgba(0,0,0,.11);
+    box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
+    padding: 10px 30px 13px;
+    font-size: 18px;
+}
+
+.tab-hr-line {
+    padding: 0px;
+}
+
+.main-content h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #222;
+    line-height: 1;
+}
+
+.sub-tit {
+    color: #666;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.main-content p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sidebar-content .card-header, .sidebar-content .card-body {
+    background: #ffffff;
+}
+
+.sidebar-content .card-header span {
+    margin-top: 2.66667px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+}
+
+.sidebar-content .card-header h5 {
+    margin-top: 2.66667px;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #444;
+}
+
+.sidebar-content .card-body p {
+    text-align: left;
+    max-height: 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.how-it-works a {
+    background: #02b3e4;
+    border: none;
+    -webkit-box-shadow: 0 20px 40px 0 rgba(0,0,0,.11);
+    box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 8px 24px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sidebar-content h4 {
+    color: #666;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sidebar-content h4:after {
+    content: '';
+    position: absolute;
+    left: 12%;
+    top: 2%;
+    height: 1px;
+    margin-left: -25px;
+    width: 50px;
+    border-radius: 3px;
+    border-bottom: 1px solid #ccc;
+}
+
+.recent-works .mt-half2 ul li img {
+    width: 320px; 
+    height: 240px;
+}
+
+.invest-form {
+    display: flex;
+}
+
+.invest-form-container .form-group {
+    display: flex;
+}
+
+.invest-form-container .form-group i {
+    margin-top: 16px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.invest-form-container .form-group input.form-control::-webkit-input-placeholder {
+    font-weight: normal;
+    color: #ccc;
+    padding-left: 20px;
+    float: right;
+    margin-top: 5px;
+}
+
+.invest-form-container .form-group input.form-control:focus {
+    padding-left: 30px;
+}
+
+#inv-but {
+    padding: 10px 24px 10px 24px;
+    border-radius: 4px;
+}
+
+.info p {
+    line-height: 0.5;
+}
+
+.testi-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comapany-about .title h2 {
+    font-size: 25px;
+}
+
+.comapany-about .title h2:after {
+    content: '';
+    position: absolute;
+    left: 49%;
+    top: 95%;
+    height: 4px;
+    margin-left: -25px;
+    width: 50px;
+    border-radius: 3px;
+    border-bottom: 4px solid #4db7fe;
 }
