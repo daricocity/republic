@@ -1274,13 +1274,15 @@ rgba(0,219,88,.07);
 /* Title */
 .title h2 {
     /*color: #566985;*/
-    color: #00a8e8;
+    /*color: #00a8e8;*/
+    color: #000;
     font-weight: 500;
     font-size: 34px;
 }
 
 .titled h2 {
-    color: #566985;
+    /*color: #566985;*/
+    color: #000;
     font-weight: 500;
     font-size: 34px;
 }
@@ -1290,7 +1292,8 @@ rgba(0,219,88,.07);
 }
 
 .title p {
-    color: #7d93b2;
+    /*color: #7d93b2;*/
+    color: gray;
     line-height: 24px;
     font-weight: 500;
     font-size: 13px;
@@ -1351,7 +1354,8 @@ rgba(0,219,88,.07);
 }*/
 
 .icon-color {
-    color: #313b5b;
+    /*color: #313b5b;*/
+    color: #000;
 }
 
 .icon-color2 {
@@ -1439,6 +1443,10 @@ rgba(0,219,88,.07);
     color: #2f3b59;
     font-weight: 600;
     font-size: 18px;
+}
+
+#car-tit a {
+    color: #000;
 }
 
 .tit h2 {
@@ -1553,7 +1561,8 @@ rgba(0,219,88,.07);
     font-size: 18px;
     font-weight: 600;
     /*color: #566985;*/
-    color: #00a8e8;
+    /*color: #00a8e8;*/
+    color: #000;
     border: none;
     outline: 0;
     vertical-align: baseline;
@@ -1568,7 +1577,8 @@ rgba(0,219,88,.07);
 
 .yeah:hover > .yeah2, .icon-color {
     /*color: #313b5b;*/
-    color: #00a8e8;
+    /*color: #00a8e8;*/
+    color: #000;
 }
 
 /*.icon-color {
@@ -1723,6 +1733,10 @@ a .label2:hover {
 
 #faq {
     background: rgba(0,56,255,.12);
+}
+
+#faq-page #quest {
+    color: #000;
 }
 
 /*===== // Investor =====*/
@@ -2448,7 +2462,11 @@ background: #fff;
 #learn-more {
     background: rgba(0,56,255,.12);
     padding-top: 50px;
-    padding-bottom: 60px
+    padding-bottom: 60px;
+}
+
+#cbody ul li a {
+    color: #000;
 }
 
 #cbody h2 {
@@ -2505,7 +2523,8 @@ background: #fff;
 /*Company Profile*/
 .company-title h2 {
     /*color: #566985;*/
-    color: #00a8e8;
+    /*color: #00a8e8;*/
+    color: #000;
     font-size: 35px;
     font-family: neue haas unica,helvetica neue,Arial,sans-serif;
     line-height: 1;
