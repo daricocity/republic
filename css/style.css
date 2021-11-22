@@ -1818,7 +1818,6 @@ a .label2:hover {
 .tipp h3 {
     width: 100%;
     font-size: 17px;
-    font-weight: 900;
     margin-bottom: 30px;
     padding-bottom: 25px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.11);
@@ -2071,7 +2070,7 @@ a .label2:hover {
 .icon-tab .nav-pills>li.active>a, 
 .icon-tab .nav-pills>li.active>a:focus, 
 .icon-tab .nav-pills>li.active>a:hover {
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.2), 0 2px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tab-content > .tab-pane {
@@ -2611,7 +2610,8 @@ background: #fff;
 }
 
 .raised h4 {
-    color: #19c157;
+    /*color: #19c157;*/
+    color: #000;
     font-weight: 900;
     letter-spacing: -.03em;
     font-size: 35px;
