@@ -1732,7 +1732,8 @@ a .label2:hover {
 }
 
 #faq {
-    background: rgba(0,56,255,.12);
+    /*background: rgba(0,56,255,.12);*/
+    background: rgba(0,219,88,.07);
 }
 
 #faq-page #quest {
@@ -2459,7 +2460,8 @@ background: #fff;
 }
 
 #learn-more {
-    background: rgba(0,56,255,.12);
+    /*background: rgba(0,56,255,.12);*/
+    background: rgba(0,219,88,.07);
     padding-top: 50px;
     padding-bottom: 60px;
 }
